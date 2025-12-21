@@ -36,7 +36,7 @@ def main():
         # Optional: Sliders for model behavior if you want to pass these to the graph
         st.info("Agents: Editor, Researcher, Analyst, Writer, Critic, Publisher")
         
-        run_button = st.button("🚀 Start Research", use_container_width=True)
+        run_button = st.button("Start Research", use_container_width=True)
 
     # 3. Main Display Area
     if run_button and topic:
