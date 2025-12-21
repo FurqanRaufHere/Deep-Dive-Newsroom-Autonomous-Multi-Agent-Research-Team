@@ -1,4 +1,4 @@
-# 📰 Deep Dive Newsroom: Autonomous Multi-Agent Research Team
+# Deep Dive Newsroom: Autonomous Multi-Agent Research Team
 
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![LangGraph](https://img.shields.io/badge/Orchestration-LangGraph-orange)](https://github.com/langchain-ai/langgraph)
@@ -9,7 +9,7 @@
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 The project is built on **LangGraph**, treating the research process as a state machine with a feedback loop.
 
@@ -25,7 +25,7 @@ The project is built on **LangGraph**, treating the research process as a state 
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Autonomous Logic:** Agents pass state and instructions without human intervention.
 * **Self-Correction:** The Critic agent can "reject" work, sending it back to the Writer for improvement.
@@ -35,7 +35,7 @@ The project is built on **LangGraph**, treating the research process as a state 
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 ```bash
