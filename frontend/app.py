@@ -57,10 +57,10 @@ def main():
                 # If you want streaming per token, that's Phase 7.
                 final_state = app.invoke(initial_state)
                 
-                status.update(label="✅ Research Complete!", state="complete", expanded=False)
+                status.update(label="Research Complete!", state="complete", expanded=False)
 
         # 4. Result Organization (Tabs for Cleanliness)
-        tab_final, tab_process, tab_raw = st.tabs(["✨ Final Article", "⚙️ Process Insights", "📂 Raw Research"])
+        tab_final, tab_process, tab_raw = st.tabs(["Final Article", "Process Insights", "Raw Research"])
 
         with tab_final:
             st.markdown(final_state.get("final_article", "No article generated."))
