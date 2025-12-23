@@ -19,7 +19,7 @@ def get_editor_agent(model_name="llama-3.3-70b-versatile"):
         ("human", "Topic: {topic}")
     ])
     
-    # Use structured output to ensure the graph can read the result
+    # Use structured output to ensure the graph can read the result.
     return prompt | llm.with_structured_output(ResearchPlan)
 
 # Test logic
