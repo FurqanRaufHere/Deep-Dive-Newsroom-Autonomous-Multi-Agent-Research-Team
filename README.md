@@ -9,7 +9,7 @@
 
 ---
 
-## System Architecture
+## System Architecture:
 
 The project is built on **LangGraph**, treating the research process as a state machine with a feedback loop.
 
